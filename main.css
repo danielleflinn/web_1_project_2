@@ -1,0 +1,51 @@
+* {
+   /* border: red solid 1px; */
+}
+@font-face {
+    font-family: museo;
+    src: url(assets/fonts/museo/museo-300-webfont.ttf);
+    }
+
+body {
+    background-image: url(assets/textures/fabric_plaid.png);
+    font-family: museo;
+    font-size: 1em;
+    width: 93%;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.main {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.social-icons {
+    width: 25px;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
