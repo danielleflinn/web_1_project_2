@@ -1,5 +1,5 @@
 * {
-   /* border: red solid 1px; */
+    border: red solid 1px;
 }
 @font-face {
     font-family: museo;
@@ -20,7 +20,7 @@ nav {
     justify-content: space-between;
 }
 
-.main {
+.main-nav {
     width: 30%;
     display: flex;
     align-items: center;
@@ -28,24 +28,49 @@ nav {
 }
 
 .social-nav {
+    width: 8%;
+    padding-top: 40px;
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.social {
+.login-nav {
     display: flex;
-    align-items: center;
-    flex-direction: column;
-    
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.social-links {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px;
 }
 
 .social-icons {
     width: 25px;
     border-radius: 5px;
+    margin-left: 5px;
 }
 
 a {
     text-decoration: none;
     color: gray;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 93%;
+}
+
+.gallery {
+    width: 87%;
+    border: white solid 10px;
+}
+
+.arrow-left, .arrow-right {
+    width: 60px;
 }
