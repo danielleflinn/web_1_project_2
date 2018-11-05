@@ -1,5 +1,5 @@
 * {
-   /*border: red solid 1px; /**/
+   border: red solid 1px; /**/
 }
 @font-face {
     font-family: museo;
@@ -144,14 +144,30 @@ header {
 
 .footer-content {
     display: flex;
-    justify-content: center;
-    align-items: center;    
+    justify-content: space-between;
+    align-items: center;  
 }
 
 .footer-nav, .about, .mini-gallery {
     width: 30%;
 }
 
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.main-footer-nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#footer-logo {
+    width: 25%;
+}
 
 .light {
     color: white;
