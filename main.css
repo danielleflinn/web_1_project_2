@@ -67,7 +67,7 @@ a, nav p {
     color: gray;
 }
 
-header {
+.slideshow {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -75,13 +75,18 @@ header {
     background-size: cover;
     height: 40vw;
     border: white solid 10px;
+
+}
+
+.border {
+    border: white solid 10px;
 }
 
 #slideshow-caption {
     align-self: flex-end;
     width: 100%;
     height: 55px;
-    background-color: rgb(77, 77, 77);
+    background-color: rgba(77, 77, 77, .70);
     padding: 15px 30px 15px 15px;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
