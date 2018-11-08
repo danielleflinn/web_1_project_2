@@ -1,9 +1,18 @@
+* {
+    border: red 1px solid;
+}
 header {
     display: flex;
     flex-direction: column;
-    
-}
+    justify-content: center}
 
 #profile-slideshow {
-    width
+}
+
+#left-content {
+    width: 60vw;
+}
+
+#right-content {
+    width: 30%;
 }

@@ -9,7 +9,7 @@
 body {
     background-image: url(assets/textures/fabric_plaid.png);
     font-family: museo;
-    font-size: 1.35vw;
+    font-size: 18px;
     margin: 0;
 }
 
@@ -74,12 +74,7 @@ a, nav p {
     background-image: url(assets/images/idea3.jpg);
     background-size: cover;
     height: 40vw;
-    border: white solid 10px;
 
-}
-
-.border {
-    border: white solid 10px;
 }
 
 #slideshow-caption {
@@ -118,6 +113,7 @@ a, nav p {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 2.5%;
 }
 
 .tile {
@@ -129,7 +125,7 @@ a, nav p {
     display: block;
     width: 20%;
     padding: 1%;
-    margin: 1%;
+    margin-bottom: 2.5%;
 }
 
 .button, footer {
@@ -159,7 +155,7 @@ a, nav p {
 }
 
 .footer-bar p span {
-    font-size: .5em;
+    font-size: .8rem;
 }
 
 .footer-content {
@@ -210,7 +206,8 @@ a, nav p {
     padding-top: 1%;
 }
 
-.about p {
+.about {
+    margin-block-end: 1.6rem;
     line-height: 160%;    
 }
 
@@ -224,7 +221,7 @@ p, h3 {
 }
 
 h2 {
-    font-size: 1.5vw;
+    font-size: 1.3rem;
     margin: 0;
 }
 
@@ -232,4 +229,74 @@ h3 {
     text-transform: uppercase;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+}
 
+#profile-slideshow {
+    height: 60vh;
+}
+
+#alternate-imgs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2vh;
+    margin-bottom: 3.5%;
+}
+
+.slideshow, .profile-tile, .profile-box {
+    border: solid 10px white;
+}
+
+.profile-tile {
+    width: 30%;
+}
+
+#left-content {
+    width: 60vw;
+}
+
+#right-content {
+    width: 28vw;
+}
+
+#profile-box {
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: .8rem;
+    background-color: white;
+}
+
+.profile-img {
+    width: 25%;
+    margin-left: .8rem;
+}
+
+#project-info {
+    padding: 1rem;
+    background-color: white;
+    margin-top: 1.2rem;
+    line-height: 150%;
+    height: 71.5%;
+}
+
+#project-info p {
+    margin-block-end: .6rem;
+    margin-block-start: .6rem;
+}
+
+@media (max-width: 850px) {
+    .tile {
+        width: 30%;
+    }
+    .mini-gallery {
+        display: none;
+    }
+    .about, .footer-nav {
+        width: 45%;
+    }
+}
